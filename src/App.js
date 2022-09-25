@@ -3,7 +3,6 @@ import './App.css';
 import Watch from './components/Watch/Watch';
 
 function App() {
-
   const [time, setTime] = useState('');
   useEffect(() => {
     setInterval(() => {
