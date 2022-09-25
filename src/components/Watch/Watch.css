@@ -1,0 +1,25 @@
+.watch {
+    width: 20rem;
+    height: 20rem;
+    border: 2rem solid #2d2c2c;
+    box-shadow: 10px 10px 30px #892323 inset;
+    border-radius: 50%;
+    background-color: #a2e4e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch h2 {
+    background-color: #babcbe;
+    padding: 0.3rem 1rem;
+    border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .watch {
+        width: 15rem;
+        height: 15rem;
+    }
+}
